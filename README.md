@@ -2,7 +2,7 @@
 
 * 下面展示的是遮挡去除与图像修复的案例实现：
 
-<img src="demos/test.png" width=500>
+<img src="demos/img.png" width=500>
 
 ## Requirements
 
