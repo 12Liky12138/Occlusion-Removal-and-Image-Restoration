@@ -1,18 +1,8 @@
+## 场景去遮挡操控展示
 
-## Paper
-Xiaohang Zhan, Xingang Pan, Bo Dai, Ziwei Liu, Dahua Lin, Chen Change Loy, "[Self-Supervised Scene De-occlusion](https://arxiv.org/abs/2004.02788)", accepted to CVPR 2020 as an **Oral Paper**. [[Project page](https://xiaohangzhan.github.io/projects/deocclusion/)].
+* 下面展示的是遮挡去除与图像修复的案例实现：
 
-<img src="demos/teaser.png"/>
-
-For further information, please contact [Xiaohang Zhan](https://xiaohangzhan.github.io/).
-
-## Demo Video
-
-* Watch the full demo video in [YouTube](https://www.youtube.com/watch?v=xIHCyyaB5gU) or [bilibili](https://www.bilibili.com/video/BV1JT4y157Wt). The demo video contains vivid explanations of the idea, and interesting applications.
-
-* Below is an application of scene de-occlusion: image manipulation. Code: [deocclusion-demo](https://github.com/xiaohangzhan/deocclusion-demo)
-
-<img src="demos/manipulation.gif" width=500>
+<img src="demos/deocclusion.mp4" width=500>
 
 ## Requirements
 
@@ -140,23 +130,3 @@ If using your own dataset to train or test, you need to make sure that it contai
     ```shell
     sh tools/test_cocoa.sh
     ```
-
-
-## Bibtex
-
-```
-@inproceedings{zhan2020self,
- author = {Zhan, Xiaohang and Pan, Xingang and Dai, Bo and Liu, Ziwei and Lin, Dahua and Loy, Chen Change},
- title = {Self-Supervised Scene De-occlusion},
- booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR)},
- month = {June},
- year = {2020}
-}
-```
-
-## Acknowledgement
-
-1. We used the code and models of [GCA-Matting](https://github.com/Yaoyi-Li/GCA-Matting) in our demo.
-
-2. We modified some code from [pytorch-inpainting-with-partial-conv](https://github.com/naoto0804/pytorch-inpainting-with-partial-conv) to train the PCNet-C.
-# Occlusion-Removal-and-Image-Restoration
